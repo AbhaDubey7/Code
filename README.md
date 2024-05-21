@@ -33,6 +33,14 @@ Node.js: Required for running JavaScript-based Cypress tests.
 Cypress: The testing framework used for executing the tests.
 Git: Version control system used for managing project codebase.
 
+
+## Tests should run as shown in the below path and should generate a report
+http://localhost:51944/__/#/specs/runner?file=cypress/e2e/api_tests/search_count.feature
+
+Sample screenshot of a successful execution of the 3 tests created for this assignment-
+<img width="806" alt="image" src="https://github.com/AbhaDubey7/Code/assets/166500415/086c6752-7dce-4e25-9f41-f5ed06766913">
+
+
 ## Limitations of the Tests
 These tests are designed specifically for the provided REST API endpoint and may not be suitable for testing other endpoints without modifications.
 The tests assume a stable internet connection for making API requests.
@@ -42,4 +50,3 @@ The tests do not cover edge cases related to network failures or server errors.
 The API endpoint provided in the test scenarios is assumed to be accessible and return valid responses during test execution.
 The expected response structure and properties are based on the provided sample response.
 The tests assume that the test environment is properly configured to execute Cypress tests.
-##

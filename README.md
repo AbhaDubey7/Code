@@ -29,9 +29,9 @@ cd <project-directory>
     npx cypress run
 
 ## Tool Requirements: 
-Node.js: Required for running JavaScript-based Cypress tests.
-Cypress: The testing framework used for executing the tests.
-Git: Version control system used for managing project codebase.
+ 1. Node.js: Required for running JavaScript-based Cypress tests.
+ 2. Cypress: The testing framework used for executing the tests.
+ 3. Git: Version control system used for managing project codebase.
 
 
 ## Tests should run as shown in the below path and should generate a report

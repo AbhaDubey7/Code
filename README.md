@@ -7,8 +7,8 @@ This repository contains BDD tests implemented using Cypress and Cucumber for te
 ## How to Execute the Tests-
 
 ## Pre-requisites
-1. Node.js installed on your machine (download here)
-2. Git installed on your machine (download here)
+1. Node.js installed on your machine ([download here](https://nodejs.org/en))
+2. Git installed on your machine ([download here](https://git-scm.com/))
 
 
 ## Steps to Execute the Tests

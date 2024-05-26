@@ -40,6 +40,8 @@ run the following command- npx cypress run.
 /Users/abhadubey/Documents/GitHub/Code/cypress-cucumber-bdd/cypress/reports/index.html
 Sample-
 file:///Users/abhadubey/Documents/GitHub/Code/cypress-cucumber-bdd/cypress/reports/index_001.html
+<img width="1663" alt="image" src="https://github.com/AbhaDubey7/Code/assets/166500415/1d8823c8-05fd-4231-b506-d388c0416361">
+
 
 
 ## Tests should run as shown in the below path and should generate a report

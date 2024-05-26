@@ -33,6 +33,14 @@ Node.js: Required for running JavaScript-based Cypress tests.
 Cypress: The testing framework used for executing the tests.
 Git: Version control system used for managing project codebase.
 
+## To generate a report- 
+run the following command- npx cypress run.
+
+## Test execution Report location-
+/Users/abhadubey/Documents/GitHub/Code/cypress-cucumber-bdd/cypress/reports/index.html
+Sample-
+file:///Users/abhadubey/Documents/GitHub/Code/cypress-cucumber-bdd/cypress/reports/index_001.html
+
 
 ## Tests should run as shown in the below path and should generate a report
 http://localhost:51944/__/#/specs/runner?file=cypress/e2e/api_tests/search_count.feature

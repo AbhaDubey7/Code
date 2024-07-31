@@ -8,6 +8,7 @@ This project contains automated tests for the Petstore API using Mocha and Axios
    ```bash
    git clone https://github.com/AbhaDubey7/Code.git
    Branch feature/AbhaDubey-CBATest
+   Projecfolder to refer  "petstore-api-test"
    cd petstore-api-test
 
 ## 2. Install dependencies

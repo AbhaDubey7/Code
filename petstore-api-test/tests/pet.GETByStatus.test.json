@@ -1,0 +1,6 @@
+[
+    { "status": "sold", "expectedResult": "array" },
+    { "status": "available", "expectedResult": "array" },
+    { "status": "pending", "expectedResult": "array" },
+    { "status": "invalid", "expectedResult": "error" }
+]

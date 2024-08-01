@@ -1,0 +1,48 @@
+[
+    {
+        "petId": 242567889,
+        "expectedStatus": 404,
+        "expectedCode": 1,
+        "expectedMessage": "Pet not found"
+    },
+    {
+        "petId": 333389222222,
+        "expectedStatus": 404,
+        "expectedCode": 1,
+        "expectedMessage": "Pet not found"
+    },
+    {
+        "petId": 555,
+        "expectedStatus": 404
+    },
+    {
+        "petId": 111,
+        "expectedStatus": 404
+    },
+    {
+        "petId": 2,
+        "expectedStatus": 200
+    },
+    {
+        "petId": 5,
+        "expectedStatus": 200
+    },
+    {
+        "petId": 408,
+        "expectedStatus": 404
+    },
+    {
+        "petId": 2111939617,
+        "expectedStatus": 404
+    },
+    {
+        "petId": 1,
+        "expectedStatus": 200
+    },
+    {
+        "petId": 999999999,
+        "expectedStatus": 404,
+        "expectedCode": 1,
+        "expectedMessage": "Pet not found"
+    }
+]

@@ -1,0 +1,71 @@
+[
+    {
+        "id": 10,
+        "category": {
+            "id": 20,
+            "name": "Teddy"
+        },
+        "name": "dog",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 21,
+                "name": "string"
+            }
+        ],
+        "status": "available",
+        "expectedStatus": 200
+    },
+    {
+        "id": 11,
+        "category": {
+            "id": 21,
+            "name": "lucy"
+        },
+        "name": "cat",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 22,
+                "name": "string"
+            }
+        ],
+        "status": "sold",
+        "expectedStatus": 200
+    },
+    {
+        "id": 12,
+        "category": {
+            "id": 22,
+            "name": "Tom"
+        },
+        "name": "hamster",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 23,
+                "name": "string"
+            }
+        ],
+        "status": "pending",
+        "expectedStatus": 200
+    },
+    {
+        "id": 100,
+        "category": {
+            "id": 27,
+            "name": "Max"
+        },
+        "name": "Snake",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 27,
+                "name": "button"
+            }
+        ],
+        "status": "available",
+        "expectedStatus": 200,
+        "expectedMessage": "Invalid input"
+    }
+]

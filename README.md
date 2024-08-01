@@ -7,9 +7,10 @@ The tests cover multiple HTTP methods (GET, POST, PUT, DELETE) for various pet (
 
 # Pre requisites
 
-Before running the tests, ensure you have the following installed on your machine:
-	•	Node.js (v20.13.1)
-	•	npm (10.5.2)
+* Before running the tests, ensure you have the following installed on your machine:
+* Ensure you have Node.js installed on your system. `Node.js (v20.13.1)`
+* You will also need to install the axios and form-data packages.
+
 
 # Project Setup
 Clone the repository to your local machine:
@@ -21,12 +22,15 @@ Clone the repository to your local machine:
 * cd `petstore-api-test`
 
 ## 2. Install dependencies ##
-`npm install`
+`npm install` (v10.5.2)
+* Initialize a Node.js Project by running this command: `npm init -y`
 
 ## 3. Install Required Packages: ##
-Please use the following command:-
-`npm install axios mocha chai` 
-
+Please use the following commands:-
+* npm install axios mocha chai 
+* npm install supertest
+* npm install  form-data
+  
 ## Running Tests ##
 * Test scripts are with .mjx format
 * Test data is in .json format.

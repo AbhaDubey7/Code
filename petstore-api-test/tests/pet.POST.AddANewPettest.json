@@ -51,6 +51,43 @@
         "expectedStatus": 200
     },
     {
+        "id": 13,
+        "category": {
+            "id": 23,
+            "name": "Jill"
+        },
+        "name": "doggie",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 24,
+                "name": "string"
+            }
+        ],
+        "status": "sold",
+        "expectedStatus": 200
+    },
+    
+    {
+        "id": 22,
+        "category": {
+          "id": 1,
+          "name": "feline"
+        },
+        "name": "kittymeow",
+        "photoUrls": [
+          "string"
+        ],
+        "tags": [
+          {
+            "id": 1,
+            "name": "kittytag"
+          }
+        ],
+        "status": "pending",
+        "expectedStatus": 200
+      },
+    {
         "id": 100,
         "category": {
             "id": 27,

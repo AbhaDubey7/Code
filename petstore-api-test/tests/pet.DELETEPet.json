@@ -1,17 +1,18 @@
 [
     {
-        "petId": 57,
-        "expectedStatus": 404,
-        "expectedMessage": ""
+        "petId": 11,
+        "expectedStatus": 200,
+        "expectedMessage": "11"
     },
     {
-        "petId": 57876543222222,
-        "expectedStatus": 404,
-        "expectedMessage": "Error: response status is 404"
+        "petId": 100,
+        "expectedStatus": 200,
+        "expectedMessage": "100"
     },
+    
     {
-        "petId": 76544,
-        "expectedStatus": 404,
-        "expectedMessage": "Pet not found"
+        "petId": 22,
+        "expectedStatus": 200,
+        "expectedMessage": "22"
     }
 ]

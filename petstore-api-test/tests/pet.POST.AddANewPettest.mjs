@@ -1,6 +1,6 @@
 import { expect } from 'chai';
 import axios from 'axios';
-import postData from './pet.POST.test.json' assert { type: 'json' };
+import postData from './pet.POST.AddANewPettest.json' assert { type: 'json' };
 
 
 describe('POST /pet', function () {

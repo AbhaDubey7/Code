@@ -20,7 +20,7 @@
         "expectedStatus": 404
     },
     {
-        "petId": 2,
+        "petId": 22,
         "expectedStatus": 200
     },
     {
@@ -36,7 +36,7 @@
         "expectedStatus": 404
     },
     {
-        "petId": 1,
+        "petId": 25,
         "expectedStatus": 200
     },
     {

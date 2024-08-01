@@ -1,0 +1,73 @@
+[
+    {
+        "id": 10,
+        "category": {
+            "id": 20,
+            "name": "Teddy"
+        },
+        "name": "dog",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 21,
+                "name": "string"
+            }
+        ],
+        "status": "pending",
+        "expectedStatus": 200
+    },
+    {
+        "id": 99999,
+        "category": {
+            "id": 20,
+            "name": "Max"
+        },
+        "name": "Hamster",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 21,
+                "name": "string"
+            }
+        ],
+        "status": "pending",
+        "expectedStatus": 200,
+        "expectedMessage": "Pet updated"
+    },
+    {
+        "id": 1000000,
+        "category": {
+            "id": 20,
+            "name": "Button"
+        },
+        "name": "Snake",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 21,
+                "name": "string"
+            }
+        ],
+        "status": "",
+        "expectedStatus": 200,
+        "expectedMessage": "Invalid input"
+    },
+    {
+        "id": "invalid_id",
+        "category": {
+            "id": 20,
+            "name": "Teddy"
+        },
+        "name": "cat",
+        "photoUrls": ["string"],
+        "tags": [
+            {
+                "id": 21,
+                "name": "string"
+            }
+        ],
+        "status": "pending",
+        "expectedStatus": 500,
+        "expectedMessage": "something bad happened"
+    }
+]

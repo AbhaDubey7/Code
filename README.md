@@ -70,9 +70,9 @@ Its corresponding Test data `pet.POST.AddANewPettest.json`
 	•	Tests for uploading an image to a pet.
 	•	Validates successful image upload and checks the response code and message.
 
-5. POST /pet/UpdateFromFormData
+5. POST  /pet/{petId} Updates a pet in the store with form data
 
-	•	Tests for creating a new pet using FORM data.
+	•	Tests to updatea a pet in the store with form data
 	•	Validates responses for successful creation and errors when invalid data is supplied.
 
 6. GET /pet/findByStatus

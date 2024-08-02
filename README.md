@@ -29,23 +29,26 @@ Please use the following commands:-
 * npm install  form-data
 
 ## 4. Package.json  
-* This file contains the meta data for the project, including all the dpendencies and scripts 
+* This file contains the meta data for the project, including all the dpendencies and scripts
+
+## 5. Index.mjs
+* The index.mjs file is responsible for importing and running all test files.
+* This file ensures that when you run npm test, all the imported test files are executed sequentially.
 
 ## Running Tests ##
-* Test scripts are with .mjx format
+* Test scripts are with .mjs format
 * Test data is in .json format.
 eg- Test file  `pet.POST.AddANewPettest.mjs`
 Its corresponding Test data `pet.POST.AddANewPettest.json`
 
-
-## 5. To run a specific test, use the following command: ##
+## 6. To run a specific test, use the following command: ##
 * `npx mocha tests/API/pet.POST.AddANewPettest.mjs`
 *  `npx mocha tests/API/pet.POST.ImageUpload.mjs`
 
-## 6. To run all the tests at once, use the following command: 
+## 7. To run all the tests at once, use the following command: 
 * `npx mocha tests/index.mjs`
 
-* Test Overview
+## 8. Test Overview
 
 1. DELETE /pet/{petId}
 
@@ -57,7 +60,7 @@ Its corresponding Test data `pet.POST.AddANewPettest.json`
 	•	Tests for updating a pet’s details.
 	•	Validates responses for successful update and errors when invalid data is supplied.
 
-3. POST /pet
+3. POST /pet/ Add a new PET
 
 	•	Tests for creating a new pet.
 	•	Validates responses for successful creation and errors when invalid data is supplied.
@@ -67,12 +70,17 @@ Its corresponding Test data `pet.POST.AddANewPettest.json`
 	•	Tests for uploading an image to a pet.
 	•	Validates successful image upload and checks the response code and message.
 
-5. GET /pet/findByStatus
+5. POST /pet/UpdateFromFormData
+
+	•	Tests for creating a new pet using FORM data.
+	•	Validates responses for successful creation and errors when invalid data is supplied.
+
+6. GET /pet/findByStatus
 
 	•	Tests for getting the status of a pet (Status- available, pending, sold).
 	•	Validates successful call and checks the response code and message.
 
-6.  GET /pet/{petId}
+7.  GET /pet/{petId}
 
 	•	Tests for getting the status of a pet using id of a pet 
 	•	Validates successful calla nnd checks the response code and message.

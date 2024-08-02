@@ -13,7 +13,7 @@
                 "name": "string"
             }
         ],
-        "status": "pending",
+        "status": "available",
         "expectedStatus": 200
     },
     {
@@ -30,7 +30,7 @@
                 "name": "string"
             }
         ],
-        "status": "pending",
+        "status": "sold",
         "expectedStatus": 200,
         "expectedMessage": "Pet updated"
     },

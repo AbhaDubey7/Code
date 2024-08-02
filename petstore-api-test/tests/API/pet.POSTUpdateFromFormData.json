@@ -1,6 +1,6 @@
 [
     {
-        "petId": 16,
+        "petId": 78,
         "data": "name=Coffee&status=available%20",
         "expectedStatus": 404,
         "expectedMessage": "not found"
@@ -10,6 +10,12 @@
         "data": "status=sold",
         "expectedStatus": 200,
         "expectedMessage": "21"
+    },
+    {
+        "petId": 19,
+        "data": "status=pending",
+        "expectedStatus": 200,
+        "expectedMessage": "19"
     },
     {
         "petId": 13,

@@ -13,31 +13,44 @@
     },
     {
         "petId": 555,
-        "expectedStatus": 404
+        "expectedStatus": 404,
+        "expectedMessage": "Pet not found"
     },
     {
         "petId": 111,
-        "expectedStatus": 404
+        "expectedStatus": 404,
+        "expectedMessage": "Pet not found"
     },
     {
         "petId": 26,
-        "expectedStatus": 200
+        "expectedStatus": 200,
+        "expectedMessage": "Pet found"
     },
     {
         "petId": 5,
-        "expectedStatus": 200
+        "expectedStatus": 200,
+        "expectedMessage": "Pet found"
     },
     {
         "petId": 408,
-        "expectedStatus": 404
+        "expectedStatus": 404,
+        "expectedMessage": "Pet not found"
     },
     {
         "petId": 2111939617,
-        "expectedStatus": 404
+        "expectedStatus": 404,
+        "expectedMessage": "Pet not found"
     },
     {
         "petId": 25,
-        "expectedStatus": 200
+        "expectedStatus": 200,
+        "expectedMessage": "Pet found"
+    },
+    {
+        "petId": 0.0,
+        "expectedStatus": 404,
+        "expectedCode": 1,
+        "expectedMessage": "Pet not found"
     },
     {
         "petId": 999999999,

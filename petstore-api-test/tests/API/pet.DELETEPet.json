@@ -1,0 +1,23 @@
+[
+    {
+        "petId": 11,
+        "expectedStatus": 200,
+        "expectedMessage": "Successfully deleted"
+    },
+    {
+        "petId": 100,
+        "expectedStatus": 200,
+        "expectedMessage": "Successfully deleted"
+    },
+    {
+        "petId": 13,
+        "expectedStatus": 200,
+        "expectedMessage": "Successfully deleted"
+    },
+    
+    {
+        "petId": 22,
+        "expectedStatus": 200,
+        "expectedMessage": "Successfully deleted"
+    }
+]

@@ -1,3 +1,4 @@
+// Corrected Code
 import { expect } from 'chai';
 import request from 'supertest';
 import { fileURLToPath } from 'url';
@@ -16,7 +17,7 @@ describe('POST /pet/{petId}/uploadImage', function() {
 
   it('should upload an image and return a 200 status', async function() {
     // Path to the image file
-    const imagePath = path.join(__dirname, '..', 'images', 'labrador-8554882_1920.jpg');
+    const imagePath = path.join(__dirname, '..', '..', 'images', 'labrador-8554882_1920.jpg');
 
     const response = await request(BASE_URL)
       .post('/v2/pet/29/uploadImage')
